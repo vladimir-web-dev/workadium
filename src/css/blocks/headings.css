@@ -1,0 +1,9 @@
+.secondary-heading {
+    margin-bottom: 60px; /*59px, 64px*/
+    font-family: 'Gotham Pro Bold';
+    font-size: 49px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #000;
+
+}

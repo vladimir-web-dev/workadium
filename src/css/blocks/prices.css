@@ -1,0 +1,15 @@
+.prices{  
+    margin-bottom: 17px;
+}
+
+.prices__list {
+    display: flex;
+    margin-left: -55px; /*70 - 25*/
+    flex-wrap: wrap;
+}
+
+.prices__card-col {
+    width: 250px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}

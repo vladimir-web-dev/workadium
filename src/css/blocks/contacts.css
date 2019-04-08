@@ -1,0 +1,87 @@
+.contacts {
+    height: 40px;
+    text-align: end;
+    font-weight: bold;    
+}
+
+.contacts--header {
+    position: absolute;
+    top: 22px;
+    right: 20px; /*21*/
+}
+
+.contacts__phone {
+    font-family: 'Gotham Pro Bold';
+    font-size: 21px;
+    color: #fff;
+}
+
+.contacts__button {
+    color: #ec1e79;
+    font-family: 'open_sansbold', sans-serif;
+    text-decoration: underline !important;
+    font-size: 14px;
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.contacts__scedule {
+    position: relative;
+}
+
+.contacts__drop {
+    position: absolute;
+    top: -9999px;
+    right: 0;
+    padding: 18px 11px 18px 11px;
+    background-image:  #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+
+}
+
+.contacts__scedule:hover .contacts__drop {
+    top: 34px;
+}
+
+.contacts__scedule:hover .contacts__button {
+    color: #5dd1f8;
+}
+
+.contacts__drop::before {
+    content: '';
+    display: flex;
+    border: 11px solid transparent;
+    border-bottom: 11px solid #ffffff;
+    position: absolute;
+    bottom: 99%;
+    right: 2px;
+}
+
+.contacts__drop::after {
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+}
+
+.contacts__scedule-item {
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contacts__scedule-item:last-child {
+    margin-bottom: 0;
+}
+
+.contacts__scedule-item_active {
+    font-weight: 700;
+    color: #ec1e79;
+}

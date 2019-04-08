@@ -1,0 +1,33 @@
+.navigation__item {
+    margin-bottom: 32px;
+    color: #ec1e79;
+}
+
+.navigation__item:hover,
+.navigation__item--active {
+    color: #000
+}
+
+.navigation__link {
+    display:inline-block;
+    padding-left: 40px;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    font-family: 'Gotham Pro Bold';
+    color: inherit;  
+}
+
+
+
+.navigation__link--main {
+    background-image: url('../../img/navigation-main.png');
+}
+
+.navigation__link--reviews {
+    background-image: url('../../img/navigation-reviews.png');
+}
+
+.navigation__link--prices {
+    background-image: url('../../img/navigation-prices.png');
+}

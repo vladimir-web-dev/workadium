@@ -1,0 +1,22 @@
+.info {
+    background-color: #27273e;
+    background-image: url('../../img/bg-pattern.png');
+
+    font-size: 18px;
+    font-family: 'Gotham Pro Regular'; 
+    color: #fff;
+    line-height: 30px;
+}
+
+.info__text {   
+    padding:  50px 0;
+}
+
+.info__container {
+    width: 620px;
+}
+
+.info__text--exlamation {
+    font-family: 'Gotham Pro Bold'; 
+    color: #ec1e79;
+}

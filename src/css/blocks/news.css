@@ -1,0 +1,18 @@
+.news {
+    margin-bottom: 60px;
+}
+
+.news__list {
+    margin-bottom: 40px;
+}
+
+.news__card:not(:last-child) {
+    padding-bottom : 30px;
+    margin-bottom: 30px; 
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.news__pagination {
+    display: flex;
+    justify-content: center;
+}

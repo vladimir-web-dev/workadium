@@ -1,0 +1,19 @@
+.credits {
+    height: 46px;
+    max-width: 266px;
+    font-family: 'Gotham Pro Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.credits__company-link {
+    color: inherit !important;
+    text-decoration: underline !important;
+}
+
+.credits__author--bold,
+.credits__company-link {
+    font-family: 'Gotham Pro Bold';
+
+}

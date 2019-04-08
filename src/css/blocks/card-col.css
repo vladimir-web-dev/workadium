@@ -1,0 +1,78 @@
+.card-col {
+    font-family: 'Gotham Pro Regular';
+    text-align: center;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.card-col__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-col__icon--feature {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #27273e;
+}
+
+.card-col__icon--price {  
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.card-col__icon-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-col__heading {
+    font-family: 'Gotham Pro Bold';
+    text-transform: uppercase;
+    font-size: 10.78px;
+    line-height: 57.2px;
+}
+
+.card-col__heading--prices {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: none;
+    margin-bottom: 15px;
+
+}
+
+.card-col__description {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.card-col__description--prices {
+    font-family: 'Gotham Pro Light';
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+
+.card-col__description-list {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.card-col__description-item {
+    margin-bottom: 20px;
+}
+
+.card-col__description-item::before {
+    display: inline-block; 
+    content: "\2022";
+    color: #ec1e79; 
+    font-weight: bold;
+    margin-right: 30px;
+}

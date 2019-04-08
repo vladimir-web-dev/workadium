@@ -1,0 +1,13 @@
+.features{
+    margin-bottom: 67px;
+}
+
+.features__list {
+    display: flex;
+    margin-left: - 45px; /*70 - 25*/
+}
+
+.features__card-col {
+    width: calc(100% / 3 - 70px);
+    margin-left: 70px;
+}

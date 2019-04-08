@@ -1,0 +1,34 @@
+/*GENERAL*/
+@import 'vendors/normalize.css';
+@import 'fonts/fonts.css';
+@import 'layout/base.css';
+
+/*HEADER*/
+@import 'blocks/header.css';
+@import 'blocks/logo.css';
+@import 'blocks/contacts.css';
+
+/*MAIN*/
+@import 'blocks/content.css';
+@import 'blocks/headings.css';
+@import 'blocks/sidebar.css';
+@import 'blocks/navigation.css';
+@import 'blocks/breadcrumbs.css';
+@import 'blocks/features.css';
+@import 'blocks/news.css';
+@import 'blocks/reviews.css';
+@import 'blocks/pagination.css';
+@import 'blocks/form.css';
+@import 'blocks/prices.css';
+@import 'blocks/partners.css';
+
+
+@import 'blocks/card.css';
+@import 'blocks/card-col.css';
+
+@import 'blocks/info.css';
+
+/*FOOTER*/
+@import 'blocks/footer.css';
+@import 'blocks/credits.css';
+@import 'blocks/social.css';

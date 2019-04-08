@@ -1,0 +1,62 @@
+/*************** MYRIAD ********************/
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../../fonts/MyriadPro-Regular.eot');
+    src: url('../../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****************** ROBOTO *****************/
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../../fonts/Roboto-Light.eot');
+    src: url('../../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Roboto-Light.woff') format('woff'),
+    url('../../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../../fonts/Roboto-Bold.eot');
+    src: url('../../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Roboto-Bold.woff') format('woff'),
+    url('../../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*************** GOTHAM PRO ******************/
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('../../fonts/GothamPro-Bold.eot');
+    src: url('../../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/GothamPro-Bold.woff') format('woff'),
+    url('../../fonts/GothamPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('../../fonts/GothamPro.eot');
+    src: url('../../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/GothamPro.woff') format('woff'),
+    url('../../fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../../fonts/GothamPro-Light.eot');
+    src: url('../../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/GothamPro-Light.woff') format('woff'),
+    url('../../fonts/GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }

@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    align-items: baseline;
+}
+
+.pagination__text,
+.pagination__list-btn {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.pagination__text {
+   font-family: 'Gotham Pro Light'; 
+   color: #656464;
+
+   margin-right: 10px;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: baseline;
+}
+
+.pagination__list-item {
+    height: 26px;
+    min-width: 26px;
+    color: #221f1f;
+    border-radius: 2px; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__list-item:hover,
+.pagination__list-item--active {
+    color: #ec1e79;
+}
+
+.pagination__list-item--active {
+    background-color: #27273e;
+}
+
+.pagination__list-btn {
+   font-family: 'Gotham Pro Bold'; 
+   color: inherit;
+}

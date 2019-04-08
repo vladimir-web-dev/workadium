@@ -1,0 +1,18 @@
+.reviews {
+    margin-bottom: 60px;
+}
+
+.reviews__list {
+    margin-bottom: 40px;
+}
+
+.reviews__card:not(:last-child) {
+    padding-bottom : 30px;
+    margin-bottom: 30px; 
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.reviews__pagination {
+    display: flex;
+    justify-content: center;
+}
