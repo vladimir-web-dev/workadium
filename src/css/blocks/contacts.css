@@ -16,10 +16,11 @@
     color: #fff;
 }
 
-.contacts__button {
+.contacts__button,
+.contacts__button:link {
     color: #ec1e79;
     font-family: 'open_sansbold', sans-serif;
-    text-decoration: underline !important;
+    text-decoration: underline;
     font-size: 14px;
     opacity: 0.7;
     cursor:pointer;
@@ -70,8 +71,7 @@
 
 .contacts__scedule-item {
     color: #221f1f;
-    font-family: "Gotham Pro";
-    font-weight: 300;
+    font-family: "Gotham Pro Regular";
     font-size: 14px;
     text-align: left;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@
     margin-bottom: 0;
 }
 
-.contacts__scedule-item_active {
-    font-weight: 700;
+.contacts__scedule-item--active {
+    font-family: "Gotham Pro Bold";
     color: #ec1e79;
 }

@@ -8,7 +8,17 @@
     color: #000
 }
 
-.navigation__link {
+.navigation__item--active {
+    text-decoration: underline;
+}
+
+.navigation__item--active > .navigation__link,
+.navigation__item:hover > .navigation__link{
+    filter:grayscale(100%);
+}
+
+.navigation__link,
+.navigation__link:link{
     display:inline-block;
     padding-left: 40px;
     background-position: left;
@@ -16,6 +26,8 @@
 
     font-family: 'Gotham Pro Bold';
     color: inherit;  
+    text-decoration: inherit;
+
 }
 
 

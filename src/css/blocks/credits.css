@@ -7,9 +7,10 @@
     color: #fff;
 }
 
-.credits__company-link {
-    color: inherit !important;
-    text-decoration: underline !important;
+.credits__company-link,
+.credits__company-link:link{
+    color: inherit;
+    text-decoration: underline;
 }
 
 .credits__author--bold,

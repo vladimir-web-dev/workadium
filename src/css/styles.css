@@ -17,6 +17,8 @@
 @import 'blocks/features.css';
 @import 'blocks/news.css';
 @import 'blocks/reviews.css';
+@import 'blocks/reviews-form.css';
+
 @import 'blocks/pagination.css';
 @import 'blocks/form.css';
 @import 'blocks/prices.css';

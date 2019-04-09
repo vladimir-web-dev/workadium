@@ -26,7 +26,7 @@
                                 <a href="#" class="contacts__button">График работы</a>
                                 <div class="contacts__drop">
                                     <ul class="contacts__scedule-list">
-                                        <li class="contacts__scedule-item contacts__scedule-item_active">пн-вс: 09:00-20:00</li>
+                                        <li class="contacts__scedule-item contacts__scedule-item--active">пн-вс: 09:00-20:00</li>
                                         <li class="contacts__scedule-item">обед: 14:00-14:30</li>
                                     </ul>
                                 </div>
@@ -41,10 +41,10 @@
                     <aside class="sidebar">
                         <nav class="navigation">
                             <ul class="navigation__list">
-                                <li class="navigation__item navigation__item--active">
+                                <li class="navigation__item">
                                     <a class="navigation__link navigation__link--main" href="index.html">Главная</a>
                                 </li>
-                                <li class="navigation__item">
+                                <li class="navigation__item navigation__item--active">
                                     <a class="navigation__link navigation__link--reviews"  href="reviews.html">Отзывы</a>
                                 </li>
                                 <li class="navigation__item">
@@ -131,7 +131,7 @@
                                     <span class="pagination__text">Страница 1 из 7</span>
                                     <ul class="pagination__list">
                                         <li class="pagination__list-item">
-                                            <a class="pagination__list-btn" href="#"><</a>
+                                            <a class="pagination__list-btn" href="#">&lsaquo;</a>
                                         </li>
                                         <li class="pagination__list-item pagination__list-item--active">
                                             <a class="pagination__list-btn" href="#">1</a>
@@ -155,7 +155,7 @@
                                             <a  class="pagination__list-btn" href="#">7</a>
                                         </li>
                                         <li class="pagination__list-item">
-                                                <a class="pagination__list-btn" href="#">></a>
+                                                <a class="pagination__list-btn" href="#">&rsaquo;</a>
                                         </li>                              
                                     </ul>
                                 </div>
@@ -171,45 +171,47 @@
                         </div>
                     </div>                 
                 </div>
-                <div class="container">
-                    <div class="form">
-                        <h2 class="form__title">Оставить отзыв</h2>
-                        <form class="form__tag">
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__block-title">Ваше имя</div>
-                                    <input type="text" placeholder="Имя"  class="form__input form-field">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__block-title">Ссылка на профиль</div>
-                                    <input type="text" placeholder="vk.com/example"  class="form__input form-field">
-                                </label>
-                            </div>
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__block-title">Текст Отзыва</div>
-                                    <textarea type="text" placeholder="" rows=4 class="form__textarea form-field">Мне понравилось</textarea>
-                                </label>
-                            </div>
-                            <div class="form__row form__row--with-button">
-                                <div class="form__radio-group">
-                                    <div class="form__radio-group-title">Отображать фото в отзыве?</div>
-                                    <label class="radio">
-                                         <input type="radio" name="radio" class="radio__input">
-                                        <span class="radio__design"></span>
-                                        <span class="radio__title">Да</span>
+                <section class="reviews-form">
+                     <div class="container reviews-form__container">
+                        <div class="form">
+                            <h2 class="form__title">Оставить отзыв</h2>
+                            <form class="form__tag">
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <span class="form__block-title">Ваше имя</span>
+                                        <input type="text" placeholder="Имя"  class="form__input form-field">
                                     </label>
-                                    <label class="radio">
-                                        <input type="radio" name="radio" class="radio__input">
-                                        <span class="radio__design"></span>
-                                        <span class="radio__title">Нет</span>
+                                    <label class="form__block">
+                                        <span class="form__block-title">Ссылка на профиль</span>
+                                        <input type="text" placeholder="vk.com/example"  class="form__input form-field">
                                     </label>
                                 </div>
-                                <button type="submit" class="form__button">Отправить</button>
-                            </div>
-                        </form>
-                    </div>       
-                </div>
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <span class="form__block-title">Текст Отзыва</span>
+                                        <textarea type="text" placeholder="" rows=4 class="form__textarea form-field">Мне понравилось</textarea>
+                                    </label>
+                                </div>
+                                <div class="form__row form__row--with-button">
+                                    <div class="form__radio-group">
+                                        <div class="form__radio-group-title">Отображать фото в отзыве?</div>
+                                        <label class="radio">
+                                                <input type="radio" name="radio" class="radio__input">
+                                            <span class="radio__design"></span>
+                                            <span class="radio__title">Да</span>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="radio" class="radio__input">
+                                            <span class="radio__design"></span>
+                                            <span class="radio__title">Нет</span>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="form__button">Отправить</button>
+                                </div>
+                            </form>
+                        </div>  
+                    </div> 
+                </section>                                 
             </div>
         </div>
 
