@@ -1,7 +1,13 @@
 .logo {
-
+    display: inline-block;
 }
 
 .logo__img {
-    
+    width:100%;
+    height: 100%;
+}
+
+.logo--intro {
+    width: 160px;
+    margin-bottom: 32px;
 }

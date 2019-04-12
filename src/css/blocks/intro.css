@@ -1,0 +1,69 @@
+.intro {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(../../img/intro__hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.intro__container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation: intro .3s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.intro__btn {
+    display: inline-block;
+    padding: 0 20px;
+
+    font-family: 'Gotham Pro Bold'; 
+    font-size: 12px;
+    line-height: 52px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ec1e79;
+
+    border: 3px solid #ec1e79;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.intro__btn:hover {
+    color: #fff;
+    background-color: #ec1e79;
+}
+
+
+@keyframes intro{
+    0% {
+        opacity: 0; 
+        transform: scale(0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(1) rotate(-10deg);
+    }
+
+    90% {
+        transform: rotate(3deg);
+    }
+
+    100% {    
+        
+        transform: rotate(0);
+    }
+}
