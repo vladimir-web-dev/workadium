@@ -4,12 +4,12 @@
 
 .prices__list {
     display: flex;
-    margin-left: -55px; /*70 - 25*/
+    margin-left: -25px; /*70 - 25*/
     flex-wrap: wrap;
 }
 
 .prices__card-col {
     width: 250px;
-    margin-left: 55px;
+    margin-left: 25px;
     margin-bottom: 50px;
 }

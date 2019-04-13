@@ -24,6 +24,8 @@
     font-size: 14px;
     opacity: 0.7;
     cursor:pointer;
+
+    transition: color .5s
 }
 
 .contacts__scedule {
@@ -32,17 +34,22 @@
 
 .contacts__drop {
     position: absolute;
-    top: -9999px;
+    top: 34px;
     right: 0;
     padding: 18px 11px 18px 11px;
     background-color:  #fff;
     border-radius: 4px;
     box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity .5s
 
 }
 
 .contacts__scedule:hover .contacts__drop {
-    top: 34px;
+    visibility: visible;
+    opacity: 1;
 }
 
 .contacts__scedule:hover .contacts__button {

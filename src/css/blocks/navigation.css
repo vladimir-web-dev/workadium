@@ -1,6 +1,28 @@
+.navigation {
+    width: 500px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navigation__item {
     margin-bottom: 32px;
     color: #ec1e79;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: color .5s, filter .5s;
+
+}
+
+.navigation__item--header {
+    margin-bottom: 0;
+    filter: brightness(0) invert(1);
 }
 
 .navigation__item:hover,
@@ -8,38 +30,68 @@
     color: #000
 }
 
+.navigation__item--header:hover,
+.navigation__item--header.navigation__item--active {
+    color: #ec1e79;
+    filter: brightness(0) invert(1);
+}
+
 .navigation__item--active {
     text-decoration: underline;
 }
 
-.navigation__item--active > .navigation__link,
-.navigation__item:hover > .navigation__link{
+.navigation__item--active,
+.navigation__item:hover{
     filter:grayscale(100%);
+}
+
+.navigation__item--header:hover,
+.navigation__item--header.navigation__item--active{
+    filter: none;
 }
 
 .navigation__link,
 .navigation__link:link{
     display:inline-block;
-    padding-left: 40px;
-    background-position: left;
-    background-repeat: no-repeat;
-
     font-family: 'Gotham Pro Bold';
     color: inherit;  
     text-decoration: inherit;
+    vertical-align: middle;
+}
+
+.navigation__link--main:before {
+    display: inline-block;
+    content: "";
+
+    width: 17px;
+    height: 15px;
+    background: url('../../img/navigation-sprite.png') -10px -48px;
+    margin-right:20px;
+    margin-bottom: -3px;
 
 }
 
+.navigation__link--reviews:before {
+    display: inline-block;
+    content: "";
 
+    width: 20px;
+    height: 18px;
+    background: url('../../img/navigation-sprite.png') -10px -10px;
+    margin-right:20px;
+    margin-bottom: -3px;
 
-.navigation__link--main {
-    background-image: url('../../img/navigation-main.png');
 }
 
-.navigation__link--reviews {
-    background-image: url('../../img/navigation-reviews.png');
-}
+.navigation__link--prices:before {
+    display: inline-block;
+    content: "";
 
-.navigation__link--prices {
-    background-image: url('../../img/navigation-prices.png');
+    width: 19px;
+    height: 16px;
+    background: url('../../img/navigation-sprite.png') -50px -10px;
+    margin-right:20px;
+    margin-bottom: -3px;
+
+
 }

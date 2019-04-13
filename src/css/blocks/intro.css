@@ -39,6 +39,8 @@
     border: 3px solid #ec1e79;
     background-color: transparent;
     cursor: pointer;
+
+    transition: .3s;
 }
 
 .intro__btn:hover {

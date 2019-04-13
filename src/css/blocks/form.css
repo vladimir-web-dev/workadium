@@ -43,6 +43,8 @@
 
     width: 100%;
     padding: 10px;
+
+    transition: border-color .3s;
 }
 
 .form-field:focus {

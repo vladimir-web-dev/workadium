@@ -40,7 +40,7 @@ ul li {
 
 .wrapper {
     min-height: 100%;
-    min-width: 1100px;  
+    min-width: 1200px;  
     overflow: hidden;
 
     display: flex;
@@ -52,7 +52,7 @@ ul li {
 }
 
 .container {   
-    width: 1060px;
+    width: 1160px;
     margin: 0 auto;
     font-family: 'Gotham Pro Regular';
     display: flex;

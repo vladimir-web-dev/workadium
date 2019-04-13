@@ -7,6 +7,13 @@
     align-items: center
 }
 
+.card-col--new {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #e8e9ed;
+    border-radius: 2px;
+}
+
 .card-col__icon {
     display: flex;
     justify-content: center;
@@ -59,6 +66,11 @@
     line-height: 57.2px;
 }
 
+/* .card-col__heading--new {
+    font-size: 18px;
+    line-height: 21px;
+} */
+
 .card-col__heading--prices {
     font-size: 18px;
     line-height: 21px;
@@ -85,6 +97,10 @@
 .card-col__description-list {
     align-self: flex-start;
     text-align: left;
+}
+
+.card-col__description-list--new {
+    align-self: center;
 }
 
 .card-col__description-item {

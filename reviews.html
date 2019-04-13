@@ -38,30 +38,48 @@
             <!--MAIN CONTENT-->
             <div class="content">                
                 <div class="container">
-                    <aside class="sidebar">
-                        <nav class="navigation">
-                            <ul class="navigation__list">
-                                <li class="navigation__item">
-                                    <a class="navigation__link navigation__link--main" href="home.html">Главная</a>
+                    <aside class="sidebar sidebar--new">
+                        <div class="info info--sidebar">
+                            <div class="info__text">
+                                Для наших новых клиентов мы предлагаем <span class="info__text--exlamation">скидку 50%</span> на первый день! 
+                                Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                            </div>                
+                        </div>
+                        <div class="social social--sidebar">
+                            <div class="social__text">Наши социальные сети</div>
+                            <ul class="social__list social__list--new">
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--vk" href="#"></a>
                                 </li>
-                                <li class="navigation__item navigation__item--active">
-                                    <a class="navigation__link navigation__link--reviews"  href="reviews.html">Отзывы</a>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--fb" href="#"></a>
                                 </li>
-                                <li class="navigation__item">
-                                    <a class="navigation__link navigation__link--prices" href="prices.html">Тарифы</a>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--gplus" href="#"></a>
+                                </li>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--twit" href="#"></a>
+                                </li>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--mail" href="#"></a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
                     </aside>
                     <main class="main">
-                        <ul class="breadcrumbs">
-                            <li class="breadcrumbs__item">
-                                <a href="index.html" class="breadcrumbs__link">Главная</a>
-                            </li>
-                            <li class="breadcrumbs__item breadcrumbs__item--active">
-                                <a href="orices.html" class="breadcrumbs__link">Отзывы</a>
-                            </li>
-                        </ul>                       
+                            <nav class="navigation">
+                                    <ul class="navigation__list">
+                                        <li class="navigation__item">
+                                            <a class="navigation__link navigation__link--main " href="home.html">Главная</a>
+                                        </li>
+                                        <li class="navigation__item navigation__item--active">
+                                            <a class="navigation__link navigation__link--reviews "  href="reviews.html">Отзывы</a>
+                                        </li>
+                                        <li class="navigation__item">
+                                            <a class="navigation__link navigation__link--prices" href="prices.html">Тарифы</a>
+                                        </li>
+                                    </ul>
+                                </nav>      
                         <section class="reviews">
                             <h2 class="secondary-heading">Отзывы</h2>
                             <ul class="reviews__list">
@@ -160,58 +178,48 @@
                                     </ul>
                                 </div>
                             </div>
-                        </section>                       
-                    </main>    
-                </div>
-                <div class="info">
-                    <div class="container info__container">
-                        <div class="info__text">
-                            Для наших новых клиентов мы предлагаем <span class="info__text--exlamation">скидку 50%</span> на первый день! 
-                            Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-                        </div>
-                    </div>                 
-                </div>
-                <section class="reviews-form">
-                     <div class="container reviews-form__container">
-                        <div class="form">
-                            <h2 class="form__title">Оставить отзыв</h2>
-                            <form class="form__tag">
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <span class="form__block-title">Ваше имя</span>
-                                        <input type="text" placeholder="Имя"  class="form__input form-field">
-                                    </label>
-                                    <label class="form__block">
-                                        <span class="form__block-title">Ссылка на профиль</span>
-                                        <input type="text" placeholder="vk.com/example"  class="form__input form-field">
-                                    </label>
-                                </div>
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <span class="form__block-title">Текст Отзыва</span>
-                                        <textarea type="text" placeholder="" rows=4 class="form__textarea form-field">Мне понравилось</textarea>
-                                    </label>
-                                </div>
-                                <div class="form__row form__row--with-button">
-                                    <div class="form__radio-group">
-                                        <div class="form__radio-group-title">Отображать фото в отзыве?</div>
-                                        <label class="radio">
-                                                <input type="radio" name="radio" class="radio__input">
-                                            <span class="radio__design"></span>
-                                            <span class="radio__title">Да</span>
+                        </section> 
+                        <section class="reviews-form">
+                            <div class="form">
+                                <h2 class="form__title">Оставить отзыв</h2>
+                                <form class="form__tag">
+                                    <div class="form__row">
+                                        <label class="form__block">
+                                            <span class="form__block-title">Ваше имя</span>
+                                            <input type="text" placeholder="Имя"  class="form__input form-field">
                                         </label>
-                                        <label class="radio">
-                                            <input type="radio" name="radio" class="radio__input">
-                                            <span class="radio__design"></span>
-                                            <span class="radio__title">Нет</span>
+                                        <label class="form__block">
+                                            <span class="form__block-title">Ссылка на профиль</span>
+                                            <input type="text" placeholder="vk.com/example"  class="form__input form-field">
                                         </label>
                                     </div>
-                                    <button type="submit" class="form__button">Отправить</button>
-                                </div>
-                            </form>
-                        </div>  
-                    </div> 
-                </section>                                 
+                                    <div class="form__row">
+                                        <label class="form__block">
+                                            <span class="form__block-title">Текст Отзыва</span>
+                                            <textarea type="text" placeholder="" rows=4 class="form__textarea form-field">Мне понравилось</textarea>
+                                        </label>
+                                    </div>
+                                    <div class="form__row form__row--with-button">
+                                        <div class="form__radio-group">
+                                            <div class="form__radio-group-title">Отображать фото в отзыве?</div>
+                                            <label class="radio">
+                                                    <input type="radio" name="radio" class="radio__input">
+                                                <span class="radio__design"></span>
+                                                <span class="radio__title">Да</span>
+                                            </label>
+                                            <label class="radio">
+                                                <input type="radio" name="radio" class="radio__input">
+                                                <span class="radio__design"></span>
+                                                <span class="radio__title">Нет</span>
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="form__button">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>  
+                        </section>                        
+                    </main>    
+                </div>                                                            
             </div>
         </div>
 
@@ -229,27 +237,7 @@
                 </div>
                 <a href="#" class="logo">
                     <img src="src/img/logo.png" alt="Logo" class="logo__img">
-                </a>
-                <div class="social">
-                    <div class="social__text">Наши социальные сети</div>
-                    <ul class="social__list">
-                        <li class="social__list-item">
-                            <a class="social__link social__link--vk" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--fb" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--gplus" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--twit" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--mail" href="#"></a>
-                        </li>
-                    </ul>
-                </div>
+                </a>                
             </div>
         </footer>
     </div>

@@ -8,8 +8,13 @@
     line-height: 30px;
 }
 
+.info--sidebar {
+    padding: 15px 12px;
+    margin-bottom: 30px;
+}
+
 .info__text {   
-    padding:  50px 0;
+    /* padding:  50px 0; */
 }
 
 .info__container {

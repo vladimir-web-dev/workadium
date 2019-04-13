@@ -18,6 +18,19 @@
                     <a href="#" class="logo">
                         <img src="src/img/logo.png" alt="Logo" class="logo__img">
                     </a>
+                    <nav class="navigation">
+                            <ul class="navigation__list">
+                                <li class="navigation__item navigation__item--header navigation__item--active">
+                                    <a class="navigation__link navigation__link--main" href="home.html">Главная</a>
+                                </li>
+                                <li class="navigation__item navigation__item--header">
+                                    <a class="navigation__link navigation__link--reviews"  href="reviews.html">Отзывы</a>
+                                </li>
+                                <li class="navigation__item navigation__item--header">
+                                    <a class="navigation__link navigation__link--prices" href="prices.html">Тарифы</a>
+                                </li>
+                            </ul>
+                        </nav>    
                     <address class="contacts">
                             <div class="contacts__phone">
                                 8 (800) 00-392-10
@@ -41,63 +54,41 @@
             <!--MAIN CONTENT-->
             <div class="content">              
                 <div class="container">
-                    <aside class="sidebar">
-                        <nav class="navigation">
-                            <ul class="navigation__list">
-                                <li class="navigation__item navigation__item--active">
-                                    <a class="navigation__link navigation__link--main" href="home.html">Главная</a>
+                    <aside class="sidebar sidebar--new">
+                        <div class="sidebar__box">
+                            <h3 class="sidebar__box-heading">топ-тариф</h3>
+                            <div class="card-col">
+                                <h4 class="card-col__heading">уникальность</h4>
+                                <p class="card-col__description">Создан для вашего комфортного отдыха</p>
+                                <ul class="card-col__description-list card-col__description-list--new">
+                                    <li class="card-col__description-item">Кофе/чай</li>
+                                    <li class="card-col__description-item">Шкаф (5кг)</li>
+                                    <li class="card-col__description-item">Рабочее место</li>
+                                </ul>
+                            </div>      
+                        </div> 
+                        <div class="social social--sidebar">
+                            <div class="social__text">Наши социальные сети</div>
+                            <ul class="social__list social__list--new">
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--vk" href="#"></a>
                                 </li>
-                                <li class="navigation__item">
-                                    <a class="navigation__link navigation__link--reviews"  href="reviews.html">Отзывы</a>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--fb" href="#"></a>
                                 </li>
-                                <li class="navigation__item">
-                                    <a class="navigation__link navigation__link--prices" href="prices.html">Тарифы</a>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--gplus" href="#"></a>
+                                </li>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--twit" href="#"></a>
+                                </li>
+                                <li class="social__list-item social__list-item--new">
+                                    <a class="social__link social__link--mail" href="#"></a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
                     </aside>
-                    <main class="main">
-                        <section class="features">
-                            <h2 class="secondary-heading">Особенности</h2>
-                            <ul class="features__list">
-                                <li class="card-col features__card-col">
-                                    <div class="card-col__icon card-col__icon--feature">
-                                        <img src="src/img/flower.png" alt="icon" class="feature__icon-img">
-                                    </div>
-                                    <h4 class="card-col__heading">уникальность</h4>
-                                    <p class="card-col__description">Создан для вашего комфортного отдыха</p>
-                                    <ul class="card-col__description-list">
-                                        <li class="card-col__description-item">Кофе/чай</li>
-                                        <li class="card-col__description-item">Шкаф (5кг)</li>
-                                        <li class="card-col__description-item">Рабочее место</li>
-                                    </ul>
-                                </li> 
-                                <li class="card-col features__card-col">
-                                    <div class="card-col__icon card-col__icon--feature">
-                                        <img src="src/img/mark-as-favorite-star.png" alt="icon" class="feature__icon-img">
-                                    </div>
-                                    <h4 class="card-col__heading">премиум-класс</h4>
-                                    <p class="card-col__description">Для любителуй хороших впечатлений</p>
-                                    <ul class="card-col__description-list">
-                                        <li class="card-col__description-item">Обед+кофе</li>
-                                        <li class="card-col__description-item">Шкаф (10кг)</li>
-                                        <li class="card-col__description-item">Детское кресло</li>
-                                    </ul>
-                                </li>
-                                <li class="card-col features__card-col">
-                                    <div class="card-col__icon card-col__icon--feature">
-                                        <img src="src/img/painter-palette.png" alt="icon" class="feature__icon-img">
-                                    </div>
-                                    <h4 class="card-col__heading">лакшери-стулья</h4>
-                                    <p class="card-col__description">Все самое лучшее и незабываемое</p>
-                                    <ul class="card-col__description-list">
-                                        <li class="card-col__description-item">Джакузи</li>
-                                        <li class="card-col__description-item">Шкаф (15кг)</li>
-                                        <li class="card-col__description-item">Табуретка</li>
-                                    </ul>
-                                </li>                    
-                            </ul>
-                        </section>
+                    <main class="main">             
                         <section class="news">
                             <h2 class="secondary-heading">Последние новости</h2>
                             <ul class="news__list">
@@ -203,27 +194,7 @@
                 </div>
                 <a href="#" class="logo">
                     <img src="src/img/logo.png" alt="Logo" class="logo__img">
-                </a>
-                <div class="social">
-                    <div class="social__text">Наши социальные сети</div>
-                    <ul class="social__list">
-                        <li class="social__list-item">
-                            <a class="social__link social__link--vk" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--fb" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--gplus" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--twit" href="#"></a>
-                        </li>
-                        <li class="social__list-item">
-                            <a class="social__link social__link--mail" href="#"></a>
-                        </li>
-                    </ul>
-                </div>
+                </a>               
             </div>
         </footer>
     </div>
